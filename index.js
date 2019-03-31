@@ -1,9 +1,5 @@
 function clock(a, b) {
-    if (a > b) {
-        return b + 12 - a;
-    } else {
-        return b - a;
-    }
+    return (a > b) ? (b + 12 - a) : (b - a);
 } 
 
-console.log(clock(2, 8));
+console.log(clock(8, 8));
